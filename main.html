@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="rus">
+
+    <head>
+       
+         <meta charset="UTF-8">
+        <title>Summary</title>
+        <link href="Style/S1.css" rel="stylesheet" type="text/css"/>
+
+        <style> 
+		 @import url('https://fonts.googleapis.com/css?family=Bevan');
+         @import url('https://fonts.googleapis.com/css?family=Neucha');
+        </style>    
+     
+     </head>
+
+<script>
+var slider =  {
+	slides:['Pictures/1.jpg','Pictures/2.jpg','Pictures/3.jpg','Pictures/4.jpg','Pictures/5.jpg'],
+	frame:0, // текущий кадр для отбражения - индекс картинки из массива
+	set: function(image) { // установка нужного фона слайдеру
+		document.getElementById("scroll").style.backgroundImage = "url("+image+")";
+	},
+	init: function() { // запуск слайдера с картинкой с нулевым индексом
+		this.set(this.slides[this.frame]);
+	},
+	left: function() { // крутим на один кадр влево
+		this.frame--;
+		if(this.frame < 0) this.frame = this.slides.length-1;
+		this.set(this.slides[this.frame]);
+	},
+	right: function() { // крутим на один кадр вправо
+		this.frame++;
+		if(this.frame == this.slides.length) this.frame = 0;
+		this.set(this.slides[this.frame]);		
+	}
+};
+window.onload = function() { // запуск слайдера после загрузки документа
+	slider.init();
+	setInterval(function() { // ставим пятисекундный интервал для перелистывания картинок
+		slider.right();
+	},5000);
+};
+</script>
+
+
+   <body>
+   
+        <div class="header"><tr><h1 id="text1">Резюме </h1></tr></div>
+       
+         <div class="RedLine1"></div>
+       
+         <div class="main1">  
+         <img src="Pictures/123.png" id="Head" alt="Head">
+         <div class="block1"> 
+            <ul><li id="bl1"><a href="#Block4"id="WhoAmI"><h1><p class="Font1">Who am I? </p></h1></a></li></ul> 
+         </div>
+          <div class="block2">
+              <ul>
+                <li id="bl2"><a href="#Main3" id="Experience"><h1><p class="Font1">Experience!</p></h1></a></li>
+              </ul>
+          </div> 
+         <div class="block3"></div>
+           <ul>
+                <li id="bl3"><a href="#Main5" id="WhyDidIChooseThis"><h1><p class="Font1">
+Why did I choose this?</p></h1></a></li>
+              </ul>     
+        </div>
+        
+            <div class="RedLine1"></div>
+              <div class="bg-images">
+                  <img src="Pictures/Fives.png" alt="Fives" id="Fives">
+              </div>
+              <div class="main2">
+              <div class="block4" id="Block4">  
+                <img src="Pictures/Ilya.jpg"alt="Avatar"id="Ilya"><p class="FIO">Я - студент второго курса <a href= "https://vk.com/ilyagrechihin" id="SS"> Гречихин Илья Дмитриевич</a> 1998 года рождения. Обучаюсь в <a href="https://www.sfedu.ru/" id="UFU"> (ТРТУ) ЮФУ ИКТИБ кафедры МОП ЭВМ специальности "Программная инженерия"</a>.  Как и большинство, закончил школу. Умею работать в команде, ответственно отношусь к поставленной задаче. С уважением отношусь к окружающим людям. Достаточно грамотно изъясняюсь, умею писать статьи (позже хочу себя попробовать в этом). Киберспорт, одно из увлечений, в котором также есть опыт. Доходил до финалов отборочных туров. Проходил половину Аматорской лиги. Около 6 лет занимался бально-спортивными танцами. Чуть меньше - теннисом. Играл в хоккей. Увлекался виндсерфингом(вейксерфингом). Но на этот момент в приоритетах - учеба. На данном этапе хочу разобраться с устройством Интернета изнутри. И также способы взаимодействия с массами общества. Пытаюсь подобрать подход к общению с каждым из типа людей. Сейчас сильно увлечен фронтендом. Верстка сайта, как один из вариантов рисования, хороший способ не только самовыражения, но и представления минималистичного дизайна, к примеру, для пользователей Интернета. </p> </div> </div>   
+      
+        <div class="RedLine1"></div>
+                 
+        <div class="main3" id="Main3">
+            
+             <p class="course"><br> <br></p>
+                <p class="course1">  Мой опыт? Курсы? В первую очередь, самообучение - это пока единственный способ, который поспособствовал получению некоторых знаний. Не просто так я взял тему проекта по <a href="http://project-id.freeiz.com/login" id="ID"> "Введение в инженерную деятельность" </a>, связанную с версткой сайта по курсу "Информатика". Как минимум, верстка для меня - способ выразиться, для начала. Все же мы любим рисовать, хоть и не у всех получается.  </p>
+              <p class="course2"> С какими языками я ознакомлен? Если я подал заявку на Фронтенд, то с HTML, CSS. С Js(JQ) я знаком. С английским все в порядке. Уровень знания - "Intermediate". Желание узнать язык лучше в общем - высокое. </p>
+             <p class="course3" id="Course3"> Почему Фронтенд? Мне показалось правильным сначала изучить каркас, узнать "инженерные секреты" по построению блоков, "художественные тайны" по дизайну, а уже после - изучать функционал сайта. Попасть к вам на курсы - шанс научиться верстать лучше, обслуживать сайты, работать в команде. Все это - шаги по лестнице к успешной карьере!</p>
+         </div>
+            
+              <div class="RedLine1"></div>
+      
+       <div class="main4">   
+         <img src="Pictures/HTML.png" id="HTML" alt="HTML">
+            <div id="slider">
+	            <button class="Buttonleft" onclick="slider.left();"></button>
+	            <div id="scroll"></div>
+	            <button class="Buttonright" onclick="slider.right();"></button>
+            </div>	
+        </div> 
+   
+          <div class="RedLine1"></div>
+          
+          <div class="main5" id="Main5">
+              <img src="Pictures/CSS2.png" id="CSS2" alt="CSS2">
+               <p class="course3"><br> </p>
+                <p class="course4"> Вся эта сфера деятельности вызывает большой интерес, у меня появилось множество идей по созданию собственного сайта-портфолио, в котором будут храниться мои "Детища"! И что потом мешает создать лендинг-сайт по созданию сайтов, звучит примитивно, но зато данная идея пользуется популярностью и спросом. В задумках присутствует фон, слоган, название, нарисованный макет. Осталось - набраться опыта. Поэтому, курсы по Фронтенду - идеальный шанс доказать себе, что все возможно.  </p>
+          </div>
+         
+           <div class="RedLine1"></div>
+         
+           <div class="footer">
+           <p class="course5"> <br> Гречихин И.Д. <br> melis-ilya@ya.ru  </p>
+          </div>
+   
+     </body>
+
+</html>

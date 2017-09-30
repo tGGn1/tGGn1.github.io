@@ -1,0 +1,84 @@
+
+
+*{margin: 0 0} *{padding: 0 0}
+html, body{min-width: 1920px; }
+p{font-family: 'Bevan', cursive; }
+a{text-decoration:none;}
+a:hover{color: white;} 
+a:active{}
+a:visited{}
+a{font-size: 40px; color:lightslategray; position:fixed;}
+
+
+.header{width: 100%; height: 100px;  background-image: url(http://365psd.ru/images/backgrounds/dark-black-wood.png); background-repeat: repeat;}
+
+#text1{ text-align: center; padding-top: 16px; color: white;  background-size: contain;font-size: 60px;font-family: 'Neucha', cursive;}
+
+.RedLine1 { width: 100%; height: 6px; background-color: black;} 
+
+
+.main1{width: auto;height: 600px;background-image: url('http://365psd.ru/images/backgrounds/bg-dark-4784.jpg');background-repeat: repeat;}
+
+#Head{position: relative; left: 1100px; top: 120px; position: absolute; width: 620px; height: 525px; opacity: 1}
+
+.block1{ position: relative;width: 100%; height: 200px;}
+
+#WhoAmI{; position:absolute; margin-left: 25px; margin-top: 20px; }
+
+.block2{ position: relative;width: 100%;height: 200px;}
+#Experience{ position:absolute;margin-left: 25px; margin-top: 20px; }
+
+.block3{ position: relative; width: 100%;height: 200px;}
+#WhyDidIChooseThis{position:absolute;margin-left: 25px; margin-top: -150px;}
+
+.main2{width: auto;height: 600px; background-image: url('http://365psd.ru/images/backgrounds/dark-black-wood.png'); background-repeat: repeat; display:flex; }
+
+.block4{ display: block;   margin-left: 50px; }
+
+#Ilya{width: 340px; height: 400px; margin-top: 50px; box-shadow: 10px 10px 50px  black;}
+
+#SS{ position: static; color: lightslategray;}
+
+#UFU{position: static; color: lightslategray;}
+
+.FIO{ text-indent: 40px ;margin-left: 500px; font-size: 35px; color: white; position: relative; top: -400px; left: -50px; font-family:  'Neucha', cursive; }
+
+.main3{width: auto;height: 600px;background-image: url('http://365psd.ru/images/backgrounds/bg-dark-4784.jpg');background-repeat: repeat;}
+
+.bg-images{position: relative;}
+
+#Fives{ left: 550px; top: 110px; position: absolute; opacity: 0.2}
+
+.course1{text-indent: 40px ;margin-left: 100px; font-size: 35px; color:white;  font-family: 'Neucha', cursive; }
+
+#ID{position: static; color: lightslategray;}
+
+.course2{text-indent: 40px; font-size: 35px; color: white;  font-family:  'Neucha', cursive; margin-left: 100px; }
+
+.course3{text-indent: 40px; font-size: 35px; color: white;  font-family: 'Neucha', cursive; margin-left: 100px; }
+
+.main4{position: relative;width: auto;height: 600px; background-image: url('http://365psd.ru/images/backgrounds/dark-black-wood.png'); background-repeat: repeat; display:flex;}
+
+#HTML{position: relative;  position: absolute; right: 40px; top: 50px; opacity: 0.5; width: 470px; height: 470px;}
+
+#slider{position:relative;margin: 15px 0; margin-left: 10%; padding: 5px;width: 1200px;height:550px;background-color: black;border: 5px solid lightslategray;border-radius:15px;}
+
+#scroll{margin:20px auto;width: 1100px;height: 520px;margin-top:13px;background-color: white;background-size:cover;border: 2px solid black;border-radius:10px;}
+
+button {position: absolute;top: 250px;width: 25px;height: 70px;font: 12pt arial,tahoma,sans-serif; text-align: center; background-color: lightslategray;}
+
+.Buttonleft {left:16px;}
+
+.Buttonright {right:16px;}
+
+.main5{width: auto;height: 600px;background-image: url('http://365psd.ru/images/backgrounds/bg-dark-4784.jpg');background-repeat: repeat;}
+
+#CSS2{position: relative;  position: absolute; margin-left: 1450px; margin-top: 190px; opacity: 0.8; width: 400px; height: 400px;}
+
+.course4{text-indent: 40px; font-size: 35px; color: white; font-family: 'Neucha', cursive; margin-left: 100px;}
+
+.footer{width: 100%; height: 100px;  background-image: url('http://365psd.ru/images/backgrounds/dark-black-wood.png'); background-repeat: repeat; position:static;}
+
+.course5{text-indent: 40px; font-size: 20px; color: white; font-family: 'Neucha', cursive; margin-left: 100px; margin-left: 90%}
+
+div[class^="main"] > p {position:relative; z-index: 10;}
